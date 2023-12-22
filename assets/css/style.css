@@ -1,0 +1,188 @@
+* {
+    margin:0; 
+    padding:0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ff5a5a;
+    color: #fff;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.h1,
+h1 {
+	font-size: 52px;
+}
+
+.h2,
+h2 {
+	font-size: 42px;
+}
+
+.h3,
+h3 {
+	font-size: 38px;
+}
+
+.h4,
+h4 {
+	font-size: 32px;
+}
+
+.h5,
+h5 {
+	font-size: 24px;
+}
+
+.h6,
+h6 {
+	font-size: 18px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+nav {
+   margin: auto;
+   width: 100%;
+   height: 65px;
+   background-color: #EEBF38;
+
+} 
+
+nav ul {
+   /* padding: 0 20px; */
+   list-style: none;
+   position: relative;
+   display: inline-table;
+   width: 100%;
+}
+
+nav ul li{
+   float:  left;
+}
+
+nav ul li:hover a{
+    color:#000;
+}
+
+nav ul li a{
+    display: block;
+    line-height: 65px;
+    color: #fff;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+  
+.profile-parent {
+    display: flex;
+}
+
+.profile-parent img {
+    width: 300px;
+    height: auto;
+}
+
+.profile-parent .profile-content {
+    margin-left: 50px;
+}
+
+.profile-desc {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .profile-parent {
+        flex-direction: column !important;
+    }
+
+    .profile-parent .profile-content {
+        margin-top: 20px;
+        margin-left: 0;
+    }    
+}
+
+
+.material {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.material-card {
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.material-card img {
+    width: 200px;
+    height: 200px;
+}
+
+.material-card h6 {
+    text-align: center;
+}
+
+.material-card .readmore, .back-btn, .source {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.material-card .readmore:hover, .back-btn:hover, .source:hover {
+    color: #EEBF38;
+}
+
+.material-detail img {
+    width: 400px;
+}
